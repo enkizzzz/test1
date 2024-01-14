@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "849121626895",
+    "firebase_url": "https://abo2test-default-rtdb.firebaseio.com",
+    "project_id": "abo2test",
+    "storage_bucket": "abo2test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849121626895:android:70f45a93409983d2008c7a",
+        "android_client_info": {
+          "package_name": "com.example.abo2_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9tZLW25lGTi3aDcIDVyaAdn86NJEPECI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849121626895:android:cedefdebf9d18364008c7a",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9tZLW25lGTi3aDcIDVyaAdn86NJEPECI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
