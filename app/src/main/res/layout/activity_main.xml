@@ -6,10 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- id이름은 메인엑티비티에서 찾아오는 용도로 사용-->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    <!-- 현재 시간을 표시하는 TextClock -->
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:format12Hour="HH:mm:ss a"
+        android:format24Hour="HH:mm:ss"
+        android:textSize="36sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 현재 날짜를 표시하는 TextView -->
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Current Date"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/textClock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- 대기번호를 표시하는 TextView -->
+    <TextView
+        android:id="@+id/textViewOrders"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="대기번호"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
